@@ -60,10 +60,10 @@ try:
             'fuzzy.storage.fcl',
             ])
 except:
-    print """\
+    print("""\
 Sorry, without the python runtime of ANTLR3, there will be
 no reading of FCL files.
-"""
+""")
 
 if __name__ == "__main__":
     setup (name = "pyfuzzy",
